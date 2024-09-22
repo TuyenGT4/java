@@ -9,7 +9,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class bai1 {
+public class BaiTap1 {
 
 	// Lớp MyAction để xử lý sự kiện khi nhấn nút
 	class MyAction implements ActionListener {
@@ -83,7 +83,7 @@ public class bai1 {
 
 	public static void main(String[] args) {
 		// Khởi tạo và hiển thị cửa sổ DemoButton
-		bai1 outer = new bai1(); // Để tham chiếu đến lớp bên ngoài
+		BaiTap1 outer = new BaiTap1(); // Để tham chiếu đến lớp bên ngoài
 		Demobtn Demo = outer.new Demobtn();
 	}
 }
